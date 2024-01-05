@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 99vw;
+    height: 100%;
+    background-color: #000000;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+.img {
+    width: 200px;
+    border-radius: 100%;
+    margin-left: 80px;
+    box-sizing: border-box;
+    border: 3px solid #FFC017;
+    margin-top: 30px;
+}
+
+.link {
+    width: 10vw;
+    height: 5vh;
+    background-color: #FFC017;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.link:hover {
+    background-color: #FFFFFF;
+    color: #FFC017;
+    box-sizing: border-box;
+    border: 2px solid #FFC017;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.section {
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 5vh 15vw 0px 15vw;
+}
+
+.h1,
+.p {
+    color: #FFFFFF;
+    color: #FFC017;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.ul {
+    color: #FFFFFF;
+    color: #FFC017;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.link1 {
+    text-decoration: none;
+    color: #FFC017;
+}
+
+#hobbies {
+    display: flex;
+    flex-direction: row;
+}
+
+.hobbies {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.foto {
+    width: 500px;
+    margin: 100px;
+    box-sizing: border-box;
+    border: 2px solid #FFC017;
+}
+
+.label {
+    color: #FFC017;
+    font-weight: bold;
+}
+
+.input {
+    width: 50vw;
+    height: 5vh;
+    box-sizing: border-box;
+    border: 3px solid #FFC017;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+#textarea {
+    width: 50vw;
+    box-sizing: border-box;
+    border: 3px solid #FFC017;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button1 {
+    width: 5vw;
+    height: 5vh;
+    box-sizing: border-box;
+    border: 3px solid #FFC017;
+    margin: 20px;
+    background-color: #000000;
+    color: #FFC017;
+    font-weight: bold;
+}
+
+.button1:hover {
+    background-color: #FFC017;
+    color: #000000;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#direction {
+    width: 3vw;
+    height: 7vh;
+    background-color: #FFC017;
+    color: #000000;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
