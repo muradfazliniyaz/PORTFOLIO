@@ -3,27 +3,22 @@ body {
     padding: 0;
     width: 99vw;
     height: 100%;
-    background-color: #000000;
-}
-
-header {
-    display: flex;
-    flex-direction: row;
+    background-color: #e8f1fa;
 }
 
 .img {
     width: 200px;
     border-radius: 100%;
-    margin-left: 80px;
+    margin-left: 30px;
     box-sizing: border-box;
-    border: 3px solid #FFC017;
+    border: 3px solid #abd0f5;
     margin-top: 30px;
 }
 
 .link {
     width: 10vw;
     height: 5vh;
-    background-color: #FFC017;
+    background-color: #abd0f5;
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -31,72 +26,43 @@ header {
     margin: 12px;
     color: #000000;
     font-weight: bold;
+    border-radius: 5px;
 }
 
 .link:hover {
     background-color: #FFFFFF;
-    color: #FFC017;
+    color: #3592ef;
     box-sizing: border-box;
-    border: 2px solid #FFC017;
+    border: 2px solid #abd0f5;
 }
 
-.navbar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 80px;
-}
-
-.section {
-    width: 70%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    margin: 5vh 15vw 0px 15vw;
-}
-
-.h1,
 .p {
     color: #FFFFFF;
-    color: #FFC017;
-    font-size: 1.5em;
-    text-align: center;
+    color: #000000;
+    font-size: 1.3em;
 }
 
 .ul {
     color: #FFFFFF;
-    color: #FFC017;
-    font-size: 1.5em;
-    display: flex;
-    flex-direction: column;
+    color: #000000;
+    font-size: 1.3em;
 }
 
-.link1 {
-    text-decoration: none;
-    color: #FFC017;
-}
-
-#hobbies {
+.fotos {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
-.hobbies {
-    display: flex;
-    flex-direction: column;
-    margin: 50px;
+.fotos-2 {
+    margin-top: 40px;
 }
 
 .foto {
     width: 500px;
-    margin: 100px;
     box-sizing: border-box;
-    border: 2px solid #FFC017;
-}
-
-.label {
-    color: #FFC017;
-    font-weight: bold;
+    border: 2px solid #abd0f5;
+    border-radius: 5px;
 }
 
 .input {
@@ -159,3 +125,51 @@ header {
     justify-content: center;
     align-items: center;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 10fr; /* İlk sütun 1 genişlik, ikinci sütun 2 genişlik */
+    gap: 10px; /* Sütunlar arası boşluk */
+  }
+  
+  .grid-item {
+    background-color: #e8f1fa;
+    padding: 20px;
+    /* text-align: center; */
+  }
+  
+  .grid-item-1 {
+    grid-column: 1 / span 1; /* İlk sütun için belirlenen genişlik */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .grid-item-2 {
+    grid-column: 2 / span 2; /* İkinci sütun için belirlenen genişlik */
+  }
+
+  .grid-item-3 {
+    margin-left: 30px;
+  }
+
+  .flashing-letter {
+    position: absolute;
+    color: #abd0f5; /* Altın rengi kullanalım */
+    font-size: 24px;
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+

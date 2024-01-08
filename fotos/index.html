@@ -12,15 +12,16 @@
     ></script>
   </head>
   <body>
-    <main>
-      <header>
-        <section id="home">
-          <img
-            src="/fotos/20190625_103845.jpg"
-            alt="Murat KILIÇ"
-            class="img"
-          />
-        </section>
+    <header class="grid-container">
+      <section class="grid-item grid-item-1">
+        <img src="/fotos/20190625_103845.jpg" alt="Murat KILIÇ" class="img" />
+      </section>
+      <section class="grid-item grid-item-2">
+        <div id="flashing-text" class="star-effect"></div>
+      </section>
+    </header>
+    <main class="grid-container">
+      <section class="grid-item grid-item-3">
         <nav class="navbar">
           <a href="/index.html" class="link">Home</a>
           <a href="/about/index.html" class="link">About</a>
@@ -34,16 +35,20 @@
             ><i class="fa-brands fa-linkedin"></i
           ></a>
         </nav>
-      </header>
-      <section class="container">
-        <section>
-          <h1 class="h1" id="fotos">Fotos</h1>
+      </section>
+      <section class="grid-item grid-item-4">
+        <h1 class="h1">Fotos</h1>
+        <section class="fotos">
           <img src="./20180322_122334.jpg" alt="" class="foto" />
           <img src="./20180331_085552.jpg" alt="" class="foto" />
-          <img src="./20190625_103845.jpg" alt="" class="foto" />
-          <img src="./IMG_20170902_122503.jpg" alt="" class="foto" />
+
+        </section>
+        <section class="fotos fotos-2">
+            <img src="./20190625_103845.jpg" alt="" class="foto" />
+            <img src="./IMG_20170902_122503.jpg" alt="" class="foto" />
         </section>
       </section>
     </main>
+    <script src="/main.js"></script>
   </body>
 </html>
