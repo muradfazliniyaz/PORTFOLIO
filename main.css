@@ -155,7 +155,7 @@ body {
 
   .flashing-letter {
     position: absolute;
-    color: #abd0f5; /* Altın rengi kullanalım */
+    color: #3b96f2; /* Altın rengi kullanalım */
     font-size: 24px;
     animation: blink 1s infinite;
   }
